@@ -1,13 +1,18 @@
 package lesson1;
 
 public class Author {
-    private String bookFirstLastNameAuthor;
+    private String bookFirstNameAuthor;
+    private String bookLastNameAuthor;
 
-    public Author (String bookFirstLastNameAuthor){
-        this.bookFirstLastNameAuthor = bookFirstLastNameAuthor;
+    public Author(String bookFirstNameAuthor,String bookLastNameAuthor){
+        this.bookFirstNameAuthor = bookFirstNameAuthor;
+        this.bookLastNameAuthor = bookLastNameAuthor;}
+
+    public String getBookFirstNameAuthor(){
+        return bookFirstNameAuthor;
     }
-    public String getBookFirstLastNameAuthor(){
-        return bookFirstLastNameAuthor;
+    public String getBookLastNameAuthor(){
+        return bookLastNameAuthor;
     }
 
 }
