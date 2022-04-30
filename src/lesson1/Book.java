@@ -2,10 +2,10 @@ package lesson1;
 
 public class Book {
     private String bookName;
-    private String bookAuthor;
+    private Author bookAuthor;
     private int bookYear;
 
-    public Book(String bookName,String bookAuthor, int bookYear){
+    public Book(String bookName,Author bookAuthor, int bookYear){
         this.bookName = bookName;
         this.bookYear = bookYear;
         this.bookAuthor = bookAuthor;
@@ -16,7 +16,7 @@ public class Book {
     public int getBookYear(){
         return bookYear;
     }
-    public String getBookAuthor(){
+    public Author getBookAuthor(){
         return bookAuthor;
     }
 
